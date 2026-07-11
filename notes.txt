@@ -1,0 +1,39 @@
+Definations
+
+ChatModel: A chat model is a language model that is trained to generate responses in a conversational manner.
+    - Chain: A chain is a sequence of steps that take an input and produce an output. It can be thought of as a pipeline or a workflow.
+    - invoke(): This method takes an input and returns an output. It is the main method of the chain.
+    - Input: The input is the data that the chain takes as input. It can be a string, a list, a dictionary, or any other data type.
+    - embeddings: The embeddings are used to represent the input data in a numerical format.
+    - embeddings_model: The embeddings_model is a language model that is used to generate the embeddings.
+    - embed_documents(): This method takes a list of documents and returns a list of embeddings.
+    - embed_query(): This method takes a query and returns an embedding.
+    - similarity_scores: The similarity_scores are used to measure the similarity between the query and the documents.
+    - CosineSimilarity: Cosine similarity is a measure of similarity between two vectors. It is calculated as the dot product of the two vectors divided by the product of their magnitudes.
+
+Prompts: Prompts are used to guide the language model in generating the output.
+    - PromptTemplate: A prompt template is a template that is used to generate the prompt. It can be a string or a list of strings.
+    - PromptTemplate.from_template(): This method takes a template and returns a prompt template.
+    - PromptTemplate.format(): This method takes a dictionary of variables and returns a formatted prompt.
+    - ChatPromptTemplate: A chat prompt template is a prompt template that is used to generate the chat prompt. It can be a string or a list of strings.
+    - ChatPromptTemplate.from_template(): This method takes a template and returns a chat prompt template.
+
+Structured Output: Structured output is a way to represent the output in a structured format.
+    Types of Structured Output:
+        - BaseModel: BaseModel is a base class for all models in the pydantic library. It provides a way to define the structure of the model.
+        - pydanticobject: PydanticObject is a class that is used to define the structure of an object.
+        - Annotated: Annotated is a decorator that is used to add annotations to the fields of a class.
+        - Optional: Optional is a decorator that is used to make a field optional.
+        - Literal: Literal is a decorator that is used to define the possible values of a field.
+        - TypedDict: TypedDict is a Python type that is used to define the structure of a dictionary.
+        - model.with_structured_output(json_schema): This method takes a json schema and returns a structured output model.
+
+Output Parsers: Output parsers are used to parse the output of the language model.
+    - PydanticOutputParser: PydanticOutputParser is a class that is used to parse the output of the language model.
+    - get_format_instructions(): This method returns the format instructions for the output parser.
+    - StructuredOutputParser: StructuredOutputParser is a class that is used to parse the output of the language model.
+    - get_format_instructions(): This method returns the format instructions for the output parser.
+    - BaseOutputParser: BaseOutputParser is a base class for all output parsers in the langchain library.
+    - StringOutputParser: StringOutputParser is a class that is used to parse the output of the language model.
+    - JsonOutputParser: JsonOutputParser is a class that is used to parse the output of the language model. 
+    - Field: Field is a class that is used to define the structure of a field in a pydantic object.

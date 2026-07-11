@@ -1,0 +1,2 @@
+HumanMessage(content="Tell me about langchain and its features.")
+AIMessage(content="Langchain is a framework for building applications that use language models like GPT-3. It provides a set of tools and libraries for working with language models, including a chatbot component that can be used to build conversational interfaces.")
