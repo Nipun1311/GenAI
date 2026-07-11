@@ -15,7 +15,6 @@ paper_input = st.selectbox(
     "Select Research Paper Name",
     [
         "Attention Is All You Need",
-        "BERT: Pre-training of Deep Bidirectional Transformers",
         "GPT-3: Language Models are Few-Shot Learners",
         "Diffusion Models Beat GANs on Image Synthesis",
     ],
