@@ -58,36 +58,6 @@ Rather than jumping directly into complete projects, this repository is organize
 
 ---
 
-## 📂 Repository Structure
-
-```text
-LangChain/
-│
-├── CHAINS/
-│   ├── simplechains.py
-│   ├── sequencialchain.py
-│   ├── parellalchains.py
-│   └── conditionalchains.py
-│
-├── CHATMODELS/
-│
-├── EMBEDDEDMODELS/
-│
-├── LLMS/
-│
-├── OUTPUT_PARSERS/
-│
-├── PROMPTS/
-│
-├── STRUCTURED_OUTPUT/
-│
-├── requirements.txt
-├── notes.txt
-└── README.md
-```
-
----
-
 ## 🛠️ Technologies Used
 
 * Python
@@ -169,23 +139,6 @@ Instead of memorizing APIs, I aim to understand how each LangChain component wor
 * ✅ Sequential Chains
 * ✅ Parallel Chains
 * ✅ Conditional Chains
-
----
-
-## 🔜 Next Steps
-
-* Retrieval-Augmented Generation (RAG)
-* Document Loaders
-* Text Splitters
-* Vector Databases
-* Retrieval Chains
-* Memory
-* AI Agents
-* Tools
-* Model Context Protocol (MCP)
-* LangGraph
-* Evaluation
-* Deployment
 
 ---
 
